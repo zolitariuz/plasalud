@@ -64,10 +64,10 @@
 					</div><!--logo-->
 
 					<ul id="nav">
-						<li> <a class="selected" href="<?php echo site_url('quienes'); ?>">Quienes Somos</a> </li>
-						<li> <a href="<?php echo site_url('comercializacion'); ?>">Comercialización</a> </li>
-						<li> <a href="<?php echo site_url('clientes'); ?>">Clientes</a> </li>
-						<li> <a href="<?php echo site_url('contacto'); ?>">Contacto</a> </li>
+						<li> <a <?php if ( is_page('quienes') ){ echo 'class="selected"'; } ?> href="<?php echo site_url('quienes'); ?>">Quienes Somos</a> </li>
+						<li> <a <?php if ( is_page('comercializacion') ){ echo 'class="selected"'; } ?> href="<?php echo site_url('comercializacion'); ?>">Comercialización</a> </li>
+						<li> <a <?php if ( is_page('clientes') ){ echo 'class="selected"'; } ?> href="<?php echo site_url('clientes'); ?>">Clientes</a> </li>
+						<li> <a <?php if ( is_page('contacto') ){ echo 'class="selected"'; } ?> href="<?php echo site_url('contacto'); ?>">Contacto</a> </li>
 					</ul><!--nav-->
 
 				</div><!-- header -->

@@ -398,8 +398,7 @@ body.home #footer {
 }
 /* line 91, style.less */
 #header #logo {
-  width: 270px;
-  height: 70px;
+  height: 100px;
   background: #fff;
   padding: 20px 180px 20px 50px;
 }
@@ -423,13 +422,13 @@ body.home #footer {
 /* line 98, style.less */
 #header #nav {
   width: 1024px;
-  height: 125px;
+  height: 235px;
   position: relative;
-  top: -115px;
+  top: -110px;
   margin: 0;
   padding-top: 105px;
   list-style: none;
-  background: url(images/plecas.png) no-repeat;
+  background: url('images/plecas.png') no-repeat;
 }
 /* line 99, style.less */
 #header #nav li {
