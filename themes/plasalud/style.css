@@ -1,59 +1,605 @@
 /*
-Theme Name: hacemoscodigo
-Theme URI: http://hacemoscodigo.com
-Author: Los Maquiladores
-Author URI: http://hacemoscodigo.com
+Theme Name: Pla Salud
+Theme URI: http://plasalud.com
+Author: @zolitariuz
+Author URI: http://zamacona.me
 Description: Tema de WordPress Personalizado
 Version: 1.0
 */
-
 @charset 'utf-8';
-
 /*
 YUI 3.4.1 (build 4118)
 Copyright 2011 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
-html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}
-
-
+/* line 18, style.less */
+html {
+  color: #000;
+  background: #ffffff;
+}
+/* line 18, style.less */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+/* line 18, style.less */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 18, style.less */
+fieldset,
+img {
+  border: 0;
+}
+/* line 18, style.less */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 18, style.less */
+ol,
+ul {
+  list-style: none;
+}
+/* line 18, style.less */
+caption,
+th {
+  text-align: left;
+}
+/* line 18, style.less */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+/* line 18, style.less */
+q:before,
+q:after {
+  content: '';
+}
+/* line 18, style.less */
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+/* line 18, style.less */
+sup {
+  vertical-align: text-top;
+}
+/* line 18, style.less */
+sub {
+  vertical-align: text-bottom;
+}
+/* line 18, style.less */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+/* line 18, style.less */
+input,
+textarea,
+select {
+  *font-size: 100%;
+}
+/* line 18, style.less */
+legend {
+  color: #000000;
+}
 /*
 YUI 3.4.1 (build 4118)
 Copyright 2011 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
-body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif}table{font-size:inherit;font:100%}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%}
-
-
+/* line 27, style.less */
+body {
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  *font-size: small;
+  *font: x-small;
+}
+/* line 27, style.less */
+select,
+input,
+button,
+textarea {
+  font: 99% arial, helvetica, clean, sans-serif;
+}
+/* line 27, style.less */
+table {
+  font-size: inherit;
+  font: 100%;
+}
+/* line 27, style.less */
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
 /*
 YUI 3.4.1 (build 4118)
 Copyright 2011 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
-h1{font-size:138.5%}h2{font-size:123.1%}h3{font-size:108%}h1,h2,h3{margin:1em 0}h1,h2,h3,h4,h5,h6,strong{font-weight:bold}abbr,acronym{border-bottom:1px dotted #000;cursor:help}em{font-style:italic}blockquote,ul,ol,dl{margin:1em}ol,ul,dl{margin-left:2em}ol{list-style:decimal outside}ul{list-style:disc outside}dl dd{margin-left:1em}th,td{border:1px solid #000;padding:.5em}th{font-weight:bold;text-align:center}caption{margin-bottom:.5em;text-align:center}p,fieldset,table,pre{margin-bottom:1em}input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em}
+/* line 36, style.less */
+h1 {
+  font-size: 138.5%;
+}
+/* line 36, style.less */
+h2 {
+  font-size: 123.1%;
+}
+/* line 36, style.less */
+h3 {
+  font-size: 108%;
+}
+/* line 36, style.less */
+h1,
+h2,
+h3 {
+  margin: 1em 0;
+}
+/* line 36, style.less */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: bold;
+}
+/* line 36, style.less */
+abbr,
+acronym {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+/* line 36, style.less */
+em {
+  font-style: italic;
+}
+/* line 36, style.less */
+blockquote,
+ul,
+ol,
+dl {
+  margin: 1em;
+}
+/* line 36, style.less */
+ol,
+ul,
+dl {
+  margin-left: 2em;
+}
+/* line 36, style.less */
+ol {
+  list-style: decimal outside;
+}
+/* line 36, style.less */
+ul {
+  list-style: disc outside;
+}
+/* line 36, style.less */
+dl dd {
+  margin-left: 1em;
+}
+/* line 36, style.less */
+th,
+td {
+  border: 1px solid #000;
+  padding: 0.5em;
+}
+/* line 36, style.less */
+th {
+  font-weight: bold;
+  text-align: center;
+}
+/* line 36, style.less */
+caption {
+  margin-bottom: .5em;
+  text-align: center;
+}
+/* line 36, style.less */
+p,
+fieldset,
+table,
+pre {
+  margin-bottom: 1em;
+}
+/* line 36, style.less */
+input[type=text],
+input[type=password],
+textarea {
+  width: 12.25em;
+  *width: 11.9em;
+}
 /*HTML5 element display*/
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section{display:block;}
+/* line 38, style.less */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
 /*Figures*/
-figure {margin: 0;}
-
+/* line 40, style.less */
+figure {
+  margin: 0;
+}
 /* Utilities */
-.lst_reset, .lst_reset li { margin: 0; padding: 0; list-style: none; }
-.clear { clear:both; height:1px; margin:0; padding:0; font-size: 1px; line-height: 0; }
-* { box-sizing: border-box; } 
-
+/* line 43, style.less */
+.lst_reset,
+.lst_reset li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 44, style.less */
+.clear {
+  clear: both;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  font-size: 1px;
+  line-height: 0;
+}
+/* line 45, style.less */
+* {
+  box-sizing: border-box;
+}
 /* clearfix for modern browsers */
+/* line 48, style.less */
 .clearfix:before,
-.clearfix:after { content:""; display:table; }
-.clearfix:after { clear:both; }
+.clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 50, style.less */
+.clearfix:after {
+  clear: both;
+}
 /* For IE 6/7 (trigger hasLayout) */
-.clearfix { zoom:1; }
+/* line 52, style.less */
+.clearfix {
+  zoom: 1;
+}
+/* line 56, style.less */
+.position {
+  position: relative;
+  overflow: hidden;
+}
+/* line 57, style.less */
+.helvetica {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 58, style.less */
+.redondas {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
 
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
 
-/*** FONT FACE ***/
+}
+/* line 74, style.less */
+html,
+body {
+  background: #1b1464;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 77, style.less */
+body.home #logo {
+  margin: 80px auto 0 auto;
+}
+/* line 78, style.less */
+body.home #logo h1 {
+  text-align: center;
+}
+/* line 79, style.less */
+body.home #logo img {
+  margin: auto;
+}
+/* line 81, style.less */
+body.home #video {
+  width: 792px;
+  height: 528px;
+  margin: auto;
+}
+/* line 82, style.less */
+body.home #saltar {
+  width: 120px;
+  margin: auto;
+  border-top: 1px solid #fff;
+  padding-top: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  z-index: 9999;
+}
+/* line 83, style.less */
+body.home #saltar a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 85, style.less */
+body.home #footer {
+  margin: 50px auto 0 auto;
+  padding-bottom: 70px;
+}
+/* line 88, style.less */
+.container {
+  width: 1024px;
+  margin: auto;
+}
+/* line 90, style.less */
+#header {
+  height: 225px;
+  z-index: 2;
+  position: relative;
+}
+/* line 91, style.less */
+#header #logo {
+  width: 270px;
+  height: 70px;
+  background: #fff;
+  padding: 20px 180px 20px 50px;
+}
+/* line 92, style.less */
+#header #logo h1 {
+  width: 0;
+  height: 0;
+  text-indent: -9999em;
+  margin: 0;
+}
+/* line 93, style.less */
+#header #logo h1 a {
+  width: 270px;
+  height: 70px;
+  display: block;
+}
+/* line 94, style.less */
+#header #logo h1 a img {
+  display: block;
+}
+/* line 98, style.less */
+#header #nav {
+  width: 1024px;
+  height: 125px;
+  position: relative;
+  top: -115px;
+  margin: 0;
+  padding-top: 105px;
+  list-style: none;
+  background: url(images/plecas.png) no-repeat;
+}
+/* line 99, style.less */
+#header #nav li {
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+}
+/* line 100, style.less */
+#header #nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 101, style.less */
+#header #nav li a:hover {
+  text-decoration: underline;
+}
+/* line 102, style.less */
+#header #nav li a.selected {
+  text-decoration: underline;
+}
+/* line 109, style.less */
+#main_wrap {
+  width: 1024px;
+  height: 626px;
+  position: relative;
+  top: -125px;
+  background: url(images/bg.jpg) no-repeat;
+}
+/* line 110, style.less */
+#main_wrap #main {
+  width: 740px;
+  height: auto;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
 
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
 
-
-/*** GENERAL ***/
+  background: url(images/bg_blue.png) repeat;
+  color: #fff;
+  top: 140px;
+  left: 50px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 111, style.less */
+#main_wrap #main h2 {
+  margin: 0 0 20px 0;
+}
+/* line 112, style.less */
+#main_wrap #main h2 img {
+  width: auto;
+  height: auto;
+}
+/* line 114, style.less */
+#main_wrap #main ul {
+  list_style: disc;
+}
+/* line 115, style.less */
+#main_wrap #main ul li {
+  margin-bottom: 10px;
+}
+/* line 118, style.less */
+#main_wrap #main #left {
+  width: 49%;
+  float: left;
+}
+/* line 119, style.less */
+#main_wrap #main #right {
+  width: 49%;
+  margin-left: 2%;
+  float: left;
+}
+/* line 121, style.less */
+#main_wrap #main #full_white {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  position: relative;
+  background: #fff;
+  display: inline-block;
+  box-sizing: border-box;
+}
+/* line 122, style.less */
+#main_wrap #main #full_white h3 {
+  font-size: 20px;
+  color: #ee4623;
+  margin: 0 0 10px 0;
+}
+/* line 123, style.less */
+#main_wrap #main #full_white ul {
+  margin: 0;
+  list-style: none;
+}
+/* line 124, style.less */
+#main_wrap #main #full_white ul li {
+  color: #1b1464;
+}
+/* line 128, style.less */
+#main_wrap #main .logos {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+/* line 129, style.less */
+#main_wrap #main .logos img {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+/* line 132, style.less */
+#main_wrap #main #forma_contacto {
+  width: 50%;
+}
+/* line 133, style.less */
+#main_wrap #main #forma_contacto label {
+  width: 30%;
+  color: #fff;
+  margin: 0 8% 20px 0;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 134, style.less */
+#main_wrap #main #forma_contacto input {
+  width: 60%;
+  float: right;
+  margin-bottom: 20px;
+}
+/* line 136, style.less */
+#main_wrap #main #forma_contacto input[type='submit'] {
+  width: 100px;
+  float: right;
+}
+/* line 138, style.less */
+#main_wrap #main #forma_contacto textarea {
+  width: 61%;
+  height: 150px;
+  float: right;
+  margin-bottom: 10px;
+}
+/* line 145, style.less */
+#footer {
+  width: 1024px;
+  margin: auto;
+  position: relative;
+  top: -105px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+/* line 146, style.less */
+#footer #menu_home {
+  width: 400px;
+  margin: auto;
+  display: block;
+  list-style: none;
+  font-size: 13px;
+}
+/* line 147, style.less */
+#footer #menu_home li {
+  display: inline-block;
+}
+/* line 148, style.less */
+#footer #menu_home li a {
+  color: #fff;
+  text-decoration: none;
+}

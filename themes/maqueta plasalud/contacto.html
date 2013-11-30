@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" media="screen" />
+	<meta charset="UTF-8">
+	<title>Pla Salud</title>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+	<div id="container">
+		
+		<div id="header">
+			
+			<div id="logo">
+				<h1>
+				  <a href="http://stackoverflow.com">
+					<img src="images/logo_pla.png" alt="Pla Salud" title="Click para regresar al inicio" />
+				  </a>
+				</h1>
+			</div><!--logo-->
+			
+			<ul id="nav">
+				<li> <a href="quienes.html">Quienes Somos</a> </li>
+				<li> <a href="comercializacion.html">Comercialización</a> </li>
+				<li> <a href="clientes.html">Clientes</a> </li>
+				<li> <a class="selected" href="contacto.html">Contacto</a> </li>
+			</ul><!--nav-->
+			
+		</div><!-- header -->
+		
+		<div id="main_wrap">
+			<div id="main">
+				<h2>
+					<img src="images/h_contacto.png" alt="Quienes Somos" title="Quienes Somos">
+				</h2>
+				
+				<form id="forma_contacto" method="post" action="contacto_recibido.php">
+					
+					<label for="nombre">Nombre:</label>
+					<input type="text" name="nombre">
+					
+					<label for="email">E-mail:</label>
+					<input type="email" name="email">
+					
+					<label for="telefono">Teléfono:</label>
+					<input type="text" name="telefono">
+					
+					<label for="asunto">Asunto:</label>
+					<input type="text" name="asunto">
+					
+					<label for="mensaje">Nombre:</label>
+					<textarea name="mensaje"></textarea>
+					
+					<div class="clear"></div>
+					
+					<input type="submit" value="enviar" >
+					
+				</form><!-- forma_contacto -->
+			</div><!-- main -->
+		</div><!-- main_wrap -->
+		
+	</div><!--container-->
+	
+	<div id="footer">
+		
+		<ul id="menu_home">
+			<ul id="menu_home">
+				<li><a href="/">[Inicio]</a></li>
+                <li><a href="quienes.html">[Quienes Somos]</a></li>
+                <li><a href="comercializacion.html">[Comercialización]</a></li>
+                <li><a href="clientes.html">[Clientes]</a></li>
+                <li><a href="contacto.html">[Contacto]</a></li>
+			</ul><!-- menu_home -->
+		</ul><!-- menu_home -->
+		
+	</div><!-- footer -->
+
+</body>
+</html>

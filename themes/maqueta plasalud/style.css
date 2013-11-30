@@ -1,0 +1,245 @@
+@import url('yui_reset.css');
+
+@import url('yui_base.css');
+
+@import url('yui_fonts.css');
+.position {
+  position: relative;
+  overflow: hidden;
+}
+.helvetica {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.redondas {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+
+}
+html,
+body {
+  background: #1b1464;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+body.video #logo {
+  margin: 80px auto 0 auto;
+}
+body.video #logo h1 {
+  text-align: center;
+}
+body.video #logo img {
+  margin: auto;
+}
+body.video #video {
+  width: 792px;
+  height: 528px;
+  margin: auto;
+}
+body.video #saltar {
+  width: 120px;
+  margin: auto;
+  border-top: 1px solid #fff;
+  padding-top: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: 9999;
+}
+body.video #saltar a {
+  color: #fff;
+  text-decoration: none;
+}
+body.video #footer {
+  margin: 50px auto 0 auto;
+  padding-bottom: 70px;
+}
+#container {
+  width: 1024px;
+  margin: auto;
+}
+#header {
+  height: 225px;
+  z-index: 2;
+  position: relative;
+}
+#header #logo {
+  width: 270px;
+  height: 70px;
+  background: #fff;
+  padding: 20px 180px 20px 50px;
+}
+#header #logo h1 {
+  width: 0;
+  height: 0;
+  text-indent: -9999em;
+  margin: 0;
+}
+#header #logo h1 a {
+  width: 270px;
+  height: 70px;
+  display: block;
+}
+#header #logo h1 a img {
+  display: block;
+}
+#header #nav {
+  width: 1024px;
+  height: 125px;
+  position: relative;
+  top: -115px;
+  margin: 0;
+  padding-top: 105px;
+  list-style: none;
+  background: url(images/plecas.png) no-repeat;
+}
+#header #nav li {
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+}
+#header #nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+#header #nav li a:hover {
+  text-decoration: underline;
+}
+#header #nav li a.selected {
+  text-decoration: underline;
+}
+#main_wrap {
+  width: 1024px;
+  height: 626px;
+  position: relative;
+  top: -125px;
+  background: url(images/bg.jpg) no-repeat;
+}
+#main_wrap #main {
+  width: 740px;
+  height: auto;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+
+  background: url(images/bg_blue.png) repeat;
+  color: #fff;
+  top: 140px;
+  left: 50px;
+  position: relative;
+  overflow: hidden;
+}
+#main_wrap #main h2 {
+  margin: 0 0 20px 0;
+}
+#main_wrap #main h2 img {
+  width: auto;
+  height: auto;
+}
+#main_wrap #main ul {
+  list_style: disc;
+}
+#main_wrap #main ul li {
+  margin-bottom: 10px;
+}
+#main_wrap #main #left {
+  width: 49%;
+  float: left;
+}
+#main_wrap #main #right {
+  width: 49%;
+  margin-left: 2%;
+  float: left;
+}
+#main_wrap #main #full_white {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  position: relative;
+  background: #fff;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#main_wrap #main #full_white h3 {
+  font-size: 20px;
+  color: #ee4623;
+  margin: 0 0 10px 0;
+}
+#main_wrap #main #full_white ul {
+  margin: 0;
+  list-style: none;
+}
+#main_wrap #main #full_white ul li {
+  color: #1b1464;
+}
+#main_wrap #main .logos {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+#main_wrap #main .logos img {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+#main_wrap #main #forma_contacto {
+  width: 50%;
+}
+#main_wrap #main #forma_contacto label {
+  width: 30%;
+  color: #fff;
+  margin: 0 8% 20px 0;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+#main_wrap #main #forma_contacto input {
+  width: 60%;
+  float: right;
+  margin-bottom: 20px;
+}
+#main_wrap #main #forma_contacto input[type='submit'] {
+  width: 100px;
+  float: right;
+}
+#main_wrap #main #forma_contacto textarea {
+  width: 61%;
+  height: 150px;
+  float: right;
+  margin-bottom: 10px;
+}
+#footer {
+  width: 1024px;
+  margin: auto;
+  position: relative;
+  top: -105px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+#footer #menu_home {
+  width: 400px;
+  margin: auto;
+  display: block;
+  list-style: none;
+}
+#footer #menu_home li {
+  display: inline-block;
+}
+#footer #menu_home li a {
+  color: #fff;
+  text-decoration: none;
+}
